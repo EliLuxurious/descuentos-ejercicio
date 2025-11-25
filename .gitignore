@@ -1,0 +1,66 @@
+# ───────────────────────────────
+# Node / JavaScript
+# ───────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+.DS_Store
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Environment variables
+.env
+.env.*
+*.local
+
+# Coverage (Jest)
+coverage/
+coverage-final.json
+
+# IDE configs
+.vscode/
+.idea/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS files
+Thumbs.db
+
+# ───────────────────────────────
+# Terraform
+# ───────────────────────────────
+# Terraform state files
+*.tfstate
+*.tfstate.*
+terraform.tfstate
+terraform.tfstate.*
+
+# Crash logs
+crash.log
+
+# Terraform directories
+.terraform/
+.terraform.lock.hcl
+
+# Sensitive override files (if exist)
+override.tf
+override.tf.json
+
+# Terraform variable files (si contienen credenciales)
+*.tfvars
+*.tfvars.json
+
+# ───────────────────────────────
+# General build outputs
+# ───────────────────────────────
+dist/
+build/
